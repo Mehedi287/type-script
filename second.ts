@@ -1,5 +1,5 @@
-function add(fastNumber: number, SecondNumber: number) {
-    const result: number = fastNumber + SecondNumber;
+function add(fastNumber: number | string, SecondNumber: number | string) {
+    const result = fastNumber + SecondNumber;
     console.log(result);
     return result;
 }
