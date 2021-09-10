@@ -1,7 +1,6 @@
+"use strict";
 const numner = 5;
-
 console.log('hello from tyope script', numner);
-const age: number = 45554;
-const MYname: string = 'hasan';
+const age = 45554;
+const MYname = 'hasan';
 console.log(age, MYname);
-
